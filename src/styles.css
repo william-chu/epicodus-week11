@@ -37,6 +37,15 @@ body {
 /* Menu Modal */
 
   /* Modal Background */
+
+  .blur {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+
   .modal {
     display: none;
     position: fixed;
@@ -54,7 +63,7 @@ body {
   .modal-content {
     margin: 15% auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
   }
 
   .modal-content ul {
@@ -69,15 +78,35 @@ body {
   .modal-content a {
     text-decoration: none;
     color: #fff;
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .modal-content a:hover {
     opacity: .7;
   }
 
+  .modal-content img {
+    width: 30px;
+    color: white;
+    float: left;
+  }
+
+  .modal-content input {
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 0 10px 10px;
+  }
+
+  .modal-content input:focus {
+    outline: none;
+  }
+
   /* The Close Button */
-  .close {
+  .close-modal {
     color: #aaa;
     float: right;
     padding: 10px 20px 0 0;
@@ -85,8 +114,8 @@ body {
     font-weight: bold;
   }
 
-  .close:hover,
-  .close:focus {
+  .close-modal:hover,
+  .close-modal:focus {
     text-decoration: none;
     cursor: pointer;
   }
