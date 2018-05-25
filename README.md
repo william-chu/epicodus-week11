@@ -1,4 +1,4 @@
-# **Favorite Organization Clone**
+# **MUJI Site Clone**
 
 #### By William Chu
 
