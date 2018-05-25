@@ -6,6 +6,15 @@
 
 This project will clone an organization I am interested in and demonstrate use of CSS Grid and Flexbox.
 
+## Screenshots of Real Site
+<center>
+Small Viewport<br>
+![MUJI small viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot1.png?raw=true)<br><br>
+Medium Viewport<br>
+![MUJI medium viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot2.png?raw=true)<br><br>
+Large Viewport<br>
+![MUJI large viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot3.png?raw=true)
+</center>
 ## Setup/Installation Requirements
 
 * To view project code, _clone repository from_ https://github.com/william-chu/epicodus-week11
@@ -30,5 +39,6 @@ This project will clone an organization I am interested in and demonstrate use o
 ## License
 
 * GPL
+* Menu and Search icons from https://www.flaticon.com/
 
 William Chu © 2018
