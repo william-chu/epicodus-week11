@@ -161,12 +161,38 @@ article img {
   grid-area: s4;
 }
 
+/* Products */
+.products-flex {
+  grid-area: prod;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 875px;
+  margin: auto;
+  padding: 25px 10px 10px 10px;
+}
+
+.products-flex a {
+  text-decoration: none;
+}
+
+.products-flex h4, .products-flex p {
+  margin: 0;
+}
+
+.products-flex p  {
+  font-size: .8rem;
+  color: #666;
+  font-weight: lighter;
+}
+
 /* New Arrivals */
 .new-arrivals-flex {
   grid-area: newarr;
   display: flex;
+  align-content: center;
   justify-content: space-between;
-  padding: 25px 15px 10px 15px;
+  padding: 25px 0 10px 0;
 }
 
 .new-arrivals-flex a {
@@ -280,20 +306,30 @@ footer p {
     "s6"
     "s7"
     "s8";
-  max-width: 900px;
-  margin: auto;
+  max-width: 875px;
+  margin: 15px auto;
 }
 
 .wrapper2 {
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "prod prod"
+    "prod prod";
+  margin:auto;
+  background-color: #ebebeb;
+}
+
+.wrapper3 {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "newarr  newarr  newarr"
-  "newarr1 newarr2 newarr3";
-  max-width: 900px;
+    "newarr  newarr  newarr"
+    "newarr1 newarr2 newarr3";
+  max-width: 875px;
   margin: auto;
-  padding: 0 15px 0 15px;
+  padding: 0 10px;
 }
 
 /* Media Queries */
@@ -338,7 +374,7 @@ footer p {
      display: inherit;
    }
 
-   .wrapper2 {
+   .wrapper3 {
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
      grid-template-areas:
       "newarr  newarr  newarr  newarr  newarr  newarr"
@@ -372,6 +408,16 @@ footer p {
  .social-media-links {
    justify-content: center;
 }
+
+  .wrapper2 {
+    max-width: 875px;
+    background-color: #fff;
+  }
+
+  .wrapper2 *, .wrapper3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
  .social-media-links img{
    margin: 0;
