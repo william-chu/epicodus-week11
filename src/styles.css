@@ -3,81 +3,99 @@ body {
   font-family: "Helvetica", "Lucida Grande", sans-serif;
 }
 
+/* Header */
 .main-head {
   grid-area: hdr;
   padding: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
+
 .main-head img {
   width: 150px;
 }
 
-.menu-button {
+.main-head-button {
   background: none;
   border: none;
   width: 30px;
 }
-.menu-button:hover {
+
+.main-head-button:hover {
   cursor: pointer;
 }
-.menu-button:focus {
+
+.main-head-button:focus {
   outline: none;
 }
-.menu-button img {
+
+.main-head-button img {
   width: 100%;
 }
 
+/* NavBar */
 .main-nav {
   grid-area: nav;
   display: none;
 }
+
 .main-nav li {
   list-style-type: none;
 }
+
 .main-nav a {
   text-decoration: none;
   color: #666;
   font-size: .85rem;
 }
 
+/* Sale Content */
 article img {
   width: 100%;
 }
+
 .hero {
   grid-area: hero;
 }
+
 .s1 {
   grid-area: s1;
 }
+
 .s2 {
   grid-area: s2;
 }
-.s3 {
-  grid-area: s4;
-}
+
 .s3 {
   grid-area: s4;
 }
 
+.s3 {
+  grid-area: s4;
+}
+
+/* Social Media */
 .social-media-links {
   display: flex;
   background-color: #ebebeb;
   padding: 20px;
   margin-top: 10px;
 }
+
 .social-media-links img {
   width: 25px;
   height: 25px;
   margin-right: 10px;
 }
 
+/* Footer */
 footer {
   background-color: #000;
   color: #fff;
   padding: 20px 15px;
 }
+
 footer a {
   text-decoration: none;
   color: #fff;
@@ -85,15 +103,18 @@ footer a {
   min-width: 150px;
   padding: 5px;
 }
+
 footer p {
   color: #666;
   margin: 15px 0;
   font-size: .85rem;
 }
+
 .store-links-flex {
   display: flex;
   flex-wrap: wrap;
 }
+
 .h-line {
   background-color: #ebebeb;
   margin: 20px 0;
@@ -102,6 +123,7 @@ footer p {
   opacity: .5;
 }
 
+/* Grid */
 .wrapper {
   display: grid;
   grid-gap: 10px;
@@ -120,6 +142,7 @@ footer p {
   margin: auto;
 }
 
+/* Media Queries */
 @media (min-width: 500px) {
   .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -159,14 +182,15 @@ footer p {
 
    .main-head {
      padding: 0;
+     justify-content: center;
+   }
+
+   .main-head-button {
+     display: none;
    }
 
    .main-nav {
      display: block;
-   }
-
-   .menu-button {
-     display: none;
    }
 
    nav ul {
