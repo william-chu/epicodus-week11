@@ -161,6 +161,37 @@ article img {
   grid-area: s4;
 }
 
+/* New Arrivals */
+.new-arrivals-flex {
+  grid-area: newarr;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 15px 10px 15px;
+}
+
+.new-arrivals-flex h4, .new-arrivals-flex p {
+  margin: 0;
+}
+
+.new-arrivals-flex p  {
+  font-size: .8rem;
+  color: #666;
+  font-weight: lighter;
+}
+
+.newarr1 {
+  grid-area: newarr1;
+}
+
+.newarr2 {
+  grid-area: newarr2;
+}
+
+.newarr3 {
+  grid-area: newarr3;
+}
+
+
 /* Social Media Links */
 .social-media-links {
   display: flex;
@@ -226,6 +257,18 @@ footer p {
     "s8";
   max-width: 900px;
   margin: auto;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "newarr  newarr  newarr"
+  "newarr1 newarr2 newarr3";
+  max-width: 900px;
+  margin: auto;
+  padding: 0 15px 0 15px;
 }
 
 /* Media Queries */
