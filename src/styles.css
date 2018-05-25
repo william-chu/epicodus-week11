@@ -1,5 +1,13 @@
+body {
+  margin: 0;
+}
+
 .main-head {
   grid-area: hdr;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-head img {
   width: 150px;
@@ -7,6 +15,7 @@
 
 .main-nav {
   grid-area: nav;
+  display: none;
 }
 .main-nav li {
   list-style-type: none;
@@ -38,8 +47,16 @@ article img {
   grid-area: s4;
 }
 
-.main-ftr {
-  grid-area: ftr;
+.social-media-links {
+  display: flex;
+  background-color: #ebebeb;
+  padding: 15px;
+}
+
+.social-media-links img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .wrapper {
@@ -47,9 +64,7 @@ article img {
   grid-gap: 15px;
   grid-template-areas:
     "hdr"
-    "nav"
     "hero"
-    "ftr"
     "s1"
     "s2"
     "s3"
@@ -68,13 +83,11 @@ article img {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "hdr  hdr"
-      "nav  nav"
       "hero hero"
       "s1   s2"
       "s3   s4"
       "s5   s6"
-      "s7   s8"
-      "ftr  ftr";
+      "s7   s8";
   }
 
   .hero img {
@@ -91,9 +104,17 @@ article img {
       "hdr  nav  nav  nav"
       "hero hero hero hero"
       "s1   s2   s3   s4"
-      "s5   s6   s7   s8"
-      "ftr  ftr  ftr  ftr"
+      "s5   s6   s7   s8";
    }
+
+   .main-head {
+     padding: 0;
+   }
+
+   .main-nav {
+     display: block;
+   }
+
    nav ul {
      display: flex;
      justify-content: space-around;
