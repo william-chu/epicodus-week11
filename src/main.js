@@ -1,12 +1,7 @@
 import './styles.css';
 
-// Get the modal
 var menuModal = document.getElementById('menu-modal');
-
-// Get the button that opens the modal
 var menuBtn = document.getElementById("menu-button");
-
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
