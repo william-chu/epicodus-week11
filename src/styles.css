@@ -1,24 +1,45 @@
 .main-head {
   grid-area: hdr;
 }
+.main-head img {
+  width: 150px;
+}
+
 .main-nav {
   grid-area: nav;
 }
+.main-nav li {
+  list-style-type: none;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: .85rem;
+}
+
+article img {
+  width: 100%;
+}
+
 .hero {
   grid-area: hero;
 }
+
 .main-ftr {
   grid-area: ftr;
 }
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-areas:
     "hdr"
     "nav"
     "hero"
     "ftr";
+  max-width: 900px;
+  margin: auto;
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
 }
 
 @media (min-width: 500px) {
@@ -28,7 +49,7 @@
       "hdr  hdr"
       "nav  nav"
       "hero hero"
-      "ftr     ftr";
+      "ftr  ftr";
   }
 }
 
@@ -38,11 +59,10 @@
     grid-template-areas:
       "hdr nav  nav"
       "hero hero hero"
-      "nav    hero ad"
       "ftr ftr  ftr"
    }
    nav ul {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
    }
 }
