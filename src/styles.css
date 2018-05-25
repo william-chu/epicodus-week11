@@ -25,18 +25,39 @@ article img {
   grid-area: hero;
 }
 
+.s1 {
+  grid-area: s1;
+}
+.s2 {
+  grid-area: s2;
+}
+.s3 {
+  grid-area: s4;
+}
+.s3 {
+  grid-area: s4;
+}
+
 .main-ftr {
   grid-area: ftr;
 }
 
 .wrapper {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 15px;
   grid-template-areas:
     "hdr"
     "nav"
     "hero"
-    "ftr";
+    "ftr"
+    "s1"
+    "s2"
+    "s3"
+    "s4"
+    "s5"
+    "s6"
+    "s7"
+    "s8";
   max-width: 900px;
   margin: auto;
   font-family: "Helvetica", "Lucida Grande", sans-serif;
@@ -44,22 +65,34 @@ article img {
 
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "hdr  hdr"
       "nav  nav"
       "hero hero"
+      "s1   s2"
+      "s3   s4"
+      "s5   s6"
+      "s7   s8"
       "ftr  ftr";
+  }
+
+  .hero img {
+    display: block;
+    width: 50%;
+    margin: auto;
   }
 }
 
 @media (min-width: 700px) {
   .wrapper {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "hdr nav  nav"
-      "hero hero hero"
-      "ftr ftr  ftr"
+      "hdr  nav  nav  nav"
+      "hero hero hero hero"
+      "s1   s2   s3   s4"
+      "s5   s6   s7   s8"
+      "ftr  ftr  ftr  ftr"
    }
    nav ul {
      display: flex;
