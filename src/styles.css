@@ -115,7 +115,7 @@ article img {
   grid-area: s4;
 }
 
-/* Social Media */
+/* Social Media Links */
 .social-media-links {
   display: flex;
   background-color: #ebebeb;
@@ -202,7 +202,7 @@ footer p {
   }
 
   .social-media-links {
-    padding: 20px;
+    padding: 20px 20px 20px 30px;
   }
 
   footer {
