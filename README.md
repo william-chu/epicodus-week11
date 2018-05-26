@@ -19,7 +19,8 @@ This project will clone an organization I am interested in and demonstrate use o
 
 ## Setup/Installation Requirements
 
-* To view project code, _clone repository from_ https://github.com/william-chu/epicodus-week11
+* To view project, open site in browser https://william-chu.github.io/epicodus-week11
+* To view project code, clone repository from https://github.com/william-chu/epicodus-week11
 * Install Node.js
 * Open terminal, navigate to project root folder and run npm install
 * To bundle and build project distribution folder, run npm run build
