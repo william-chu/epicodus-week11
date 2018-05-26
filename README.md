@@ -8,14 +8,9 @@ This project will clone an organization I am interested in and demonstrate use o
 
 ## Screenshots of Real Site
 
-### Small Viewport<br><br>
-![Muji small viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot1.png?raw=true "Small Viewport")<br><br>
-
-### Medium Viewport<br><br>
-![MUJI medium viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot2.png?raw=true)<br><br>
-
-### Large Viewport<br><br>
-![MUJI large viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot3.png?raw=true)
+| Small View | Medium View | Large View |
+| -------------- | --------------- | -------------- |
+| ![Muji small viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot1.png?raw=true "Small Viewport") | ![MUJI medium viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot2.png?raw=true) | ![MUJI large viewport](https://github.com/william-chu/epicodus-week11/blob/master/src/img/screenshot3.png?raw=true) |
 
 ## Setup/Installation Requirements
 
