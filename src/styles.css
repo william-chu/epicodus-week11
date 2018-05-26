@@ -212,8 +212,11 @@ article img:hover {
 }
 
 .product-category img {
+  display: flex;
+  align-items: center;
   width: 50px;
   min-width: 50px;
+  padding: 0 10px;
 }
 
 .product-category h6 {
@@ -221,6 +224,7 @@ article img:hover {
   color: #666;
   font-weight: lighter;
   margin: 25px 0;
+  justify-content: center;
 }
 
 .cat1 {
