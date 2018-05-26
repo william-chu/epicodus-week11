@@ -247,6 +247,54 @@ article img:hover {
   grid-area: cat5;
 }
 
+.cat6 {
+  grid-area: cat6;
+}
+
+.cat7 {
+  grid-area: cat7;
+}
+
+.cat8 {
+  grid-area: cat8;
+}
+
+.cat9 {
+  grid-area: cat9;
+}
+
+.cat10 {
+  grid-area: cat10;
+}
+
+.cat11 {
+  grid-area: cat11;
+}
+
+.cat12 {
+  grid-area: cat12;
+}
+
+.cat13 {
+  grid-area: cat13;
+}
+
+.cat14 {
+  grid-area: cat14;
+}
+
+.cat15 {
+  grid-area: cat15;
+}
+
+.cat16 {
+  grid-area: cat16;
+}
+
+.cat17 {
+  grid-area: cat17;
+}
+
 /* New Arrivals */
 .new-arrivals-flex {
   grid-area: newarr;
@@ -384,10 +432,16 @@ footer p {
   grid-row-gap: 10px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "prod prod"
-    "cat1 cat2"
-    "cat3 cat4"
-    "cat5 1fr";
+    "prod   prod"
+    "cat1   cat2"
+    "cat3   cat4"
+    "cat5   1fr"
+    "cat6   cat7"
+    "cat8   cat9"
+    "cat10  cat11"
+    "cat12  cat13"
+    "cat14  cat15"
+    "cat16  cat17";
   margin:auto;
   background-color: #ebebeb;
   padding-bottom: 25px;
@@ -419,11 +473,15 @@ footer p {
   }
 
   .wrapper2 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-      "prod prod prod prod"
-      "cat1 cat2 cat3 cat4"
-      "cat5 1fr  1fr  1fr";
+      "prod   prod   prod"
+      "cat1   cat2   cat3"
+      "cat4   cat5    1fr"
+      "cat6   cat7   cat8"
+      "cat9   cat10  cat11"
+      "cat12  cat13  cat14"
+      "cat15  cat16  cat17";
   }
 
   .hero img {
@@ -450,6 +508,17 @@ footer p {
       "s1   s2   s3   s4"
       "s5   s6   s7   s8";
    }
+
+  .wrapper2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "prod   prod   prod   prod"
+      "cat1   cat2   cat3   cat4"
+      "cat5   1fr    1fr    1fr"
+      "cat6   cat7   cat8   cat9"
+      "cat10  cat11  cat12  cat13"
+      "cat14  cat15  cat16  cat17";
+  }
 
   .wrapper3 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -499,8 +568,10 @@ footer p {
     background-color: #fff;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "prod prod prod prod prod prod"
-    "cat1 cat2 cat3 cat4 cat5 1fr";
+    "prod   prod   prod   prod   prod   prod"
+    "cat1   cat2   cat3   cat4   cat5   1fr"
+    "cat6   cat7   cat8   cat9   cat10  cat11"
+    "cat12  cat13  cat14  cat15  cat16  cat17";
   }
 
   .wrapper2 *, .wrapper3 {
