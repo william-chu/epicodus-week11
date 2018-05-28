@@ -145,7 +145,7 @@ article img {
   width: 100%;
 }
 
-.wrapper article img:hover {
+.wrapper1 article img:hover {
   opacity: .7;
   cursor: pointer;
 }
@@ -367,7 +367,7 @@ article img {
 .social-media-links {
   display: flex;
   background-color: #ebebeb;
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 .social-media-links img {
@@ -506,7 +506,7 @@ footer p {
   }
 
   .social-media-links {
-    padding: 20px;
+    padding: 20px 30px;
   }
 
   footer {
